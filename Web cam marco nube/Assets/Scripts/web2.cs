@@ -8,7 +8,7 @@ public class web2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Application.targetFrameRate = 60;
+        Application.targetFrameRate = 24;
         WebCamDevice my_device = new WebCamDevice();
         WebCamDevice[] devices = WebCamTexture.devices;
         for (int i = 0; i < 0; i++)
